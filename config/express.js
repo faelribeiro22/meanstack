@@ -10,7 +10,7 @@ module.exports = function () {
   // middleware
   app.use(express.static('./public'));
   app.set('view engine','ejs');
-  app.set('views','../app/views');
+  app.set('views','./app/views');
 
   home(app);
 
